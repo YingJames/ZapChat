@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './App.css';
 
 import firebase from 'firebase/compat/app';
@@ -54,14 +55,43 @@ function SignOut() {
 
 function ChatRoom() {
   const messagesRef = firestore.collection('messages');
+
+  // uses messages collection from the firestore database
   const query = messagesRef.orderBy('createdAt').limit(25);
 
+  // messages is an array fetched from the query
   const [messages] = useCollectionData(query, {idField: 'id'});
+
+  const [formValue, setFormValue] = useState('');
+
+  const sendMessage = async(e) => {
+    // prevent site from refreshing on form submit
+    e.preventDefault();
+
+    const { uid, photoURL } = auth.currentUser;
+
+    await messagesRef.add({
+      text: formValue,
+      createdAt: firebase.firestore.FieldValue.serverTimestamp(),
+      uid,
+      photoURL
+    });
+    setFormValue('');
+  };
+
 
   return (
     <>
       <div>
+        {/* if there are messages,*/} 
         {messages && messages.map(msg => <ChatMessage key={msg.id} message={msg} />)}
+
+        <form onSubmit={sendMessage}>
+          <input value={formValue} onChange={e => setFormValue(e.target.value)}/>
+          <button type="submit">⚡️</button>
+        </form> 
+
+        <SignOut />
       </div>
     </>
   )
@@ -70,7 +100,17 @@ function ChatRoom() {
 function ChatMessage(props) {
   const { text, uid } = props.message;
 
-  return <p>{text}</p>
+  // compares user id on firestore document with local user
+  // if it is equal, we know the current user sent the msg
+  const messageClass = uid === auth.currentUser.uid ? 'sent' : 'received';
+
+  return (
+    <div className={`message ${messageClass}`}>
+      <img alt="current user profile" src={props.message.photoURL} />
+      <p>{text}</p>
+    </div>
+
+  )
 }
 
 export default App;
