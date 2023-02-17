@@ -51,14 +51,10 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -96,12 +92,6 @@ Quickly chat with anyone over the internet with little setup. This project helpe
 
 <!-- GETTING STARTED -->
 ## Getting Started
-### Prerequisites
-
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
@@ -123,9 +113,19 @@ Quickly chat with anyone over the internet with little setup. This project helpe
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Feel free to leverage this project for your own global messaging system. 
+Feel free to leverage this project for your own messaging application!
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+[LOGIN IMAGE]
+
+Log in with your Google account
+
+[SEND MESSAGE GIF]
+
+Send messages using the input box at the bottom of the screen.
+
+[LOGOUT IMAGE]
+
+Log out of your account by clicking the logout button in the top right corner.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,26 +146,6 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- CONTACT -->
 ## Contact
 
@@ -180,15 +160,12 @@ Project Link: [https://github.com/YingJames/ZapChat.git](https://github.com/Ying
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+These are some resources that I would recommend to anyone looking to learn React, Firebase, and Tailwindcss.
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+* [Chat App in 7 minutes with React & Firebase - Youtube video](https://youtu.be/zQyrwxMPm88)
+* [React Docs](https://beta.reactjs.org)
+* [Flowbite](https://flowbite.com)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
