@@ -56,6 +56,7 @@
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 ![Screenshot 2023-02-02 231445](https://user-images.githubusercontent.com/21976362/216513477-2bd9a162-329b-43fa-9ea7-6c0a18e5c659.png)
 
+
 Quickly chat with anyone over the internet with little setup. This project helped me learn TailwindCSS, conditional rendering in React, and the Firebase authentication.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -102,17 +103,19 @@ Quickly chat with anyone over the internet with little setup. This project helpe
 
 Feel free to leverage this project for your own messaging application!
 
-[LOGIN IMAGE]
-
 Log in with your Google account
 
-[SEND MESSAGE GIF]
+https://user-images.githubusercontent.com/21976362/219693265-b963b55a-9184-4638-aeeb-faeeb2e32c9e.mp4
 
+<br>
 Send messages using the input box at the bottom of the screen.
 
-[LOGOUT IMAGE]
+https://user-images.githubusercontent.com/21976362/219696671-53b776a0-3433-4b53-a104-2fbca6ded26f.mp4
 
+<br>
 Log out of your account by clicking the logout button in the top right corner.
+
+https://user-images.githubusercontent.com/21976362/219696801-c0132627-bade-49a3-863e-8792020ab9dc.mp4
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
