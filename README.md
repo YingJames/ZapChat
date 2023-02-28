@@ -2,6 +2,7 @@
 
 <!-- PROJECT SHIELDS -->
 [![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
 [![Issues][issues-shield]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -145,6 +146,8 @@ These are some resources that I would recommend to anyone looking to learn React
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/YingJames/ZapChat.svg?style=for-the-badge
 [contributors-url]: https://github.com/YingJames/ZapChat/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/YingJames/ZapChat.svg?style=for-the-badge
+[forks-url]: https://github.com/YingJames/ZapChat/network/members
 [issues-shield]: https://img.shields.io/github/issues/YingJames/ZapChat.svg?style=for-the-badge
 [issues-url]: https://github.com/YingJames/ZapChat/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
