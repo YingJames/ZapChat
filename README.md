@@ -9,7 +9,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/yingjames/zapchat">
     <img src="./src/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
@@ -19,9 +19,9 @@
     The real-time global messaging app
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/YingJames/ZapChat/tree/main">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/YingJames/ZapChat/tree/main">Request Feature</a>
   </p>
 </div>
 
