@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ZapChat/static/css/main.943a2f44.css",
+    "main.js": "/ZapChat/static/js/main.3694bb4b.js",
+    "static/js/787.5e7aab93.chunk.js": "/ZapChat/static/js/787.5e7aab93.chunk.js",
+    "static/media/logo.svg": "/ZapChat/static/media/logo.a8c398efde5848be461bd10d741c744a.svg",
+    "index.html": "/ZapChat/index.html",
+    "main.943a2f44.css.map": "/ZapChat/static/css/main.943a2f44.css.map",
+    "main.3694bb4b.js.map": "/ZapChat/static/js/main.3694bb4b.js.map",
+    "787.5e7aab93.chunk.js.map": "/ZapChat/static/js/787.5e7aab93.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.943a2f44.css",
+    "static/js/main.3694bb4b.js"
+  ]
+}
