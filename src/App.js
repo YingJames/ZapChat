@@ -1,6 +1,5 @@
 import './App.css';
-import { Navbar } from './components/Navbar';
-import { SignIn } from './components/SignInOut';
+import { Nav } from './components/Nav';
 import { ChatRoom } from './components/ChatRoom';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { auth } from './firebase';
@@ -13,10 +12,10 @@ function App() {
     <div className="App">
       <header>
       </header>
-        <Navbar />
+        <Nav />
 
       <section>
-        {user ? <ChatRoom /> : <SignIn />}
+        {user && <ChatRoom />}
       </section>
     </div>
   );
